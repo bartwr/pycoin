@@ -1,6 +1,5 @@
 from pycoin.networks.bitcoinish import create_bitcoinish_network
 
-
 network = create_bitcoinish_network(
     symbol="BTC", network_name="Bitcoin", subnet_name="mainnet",
     wif_prefix_hex="80", sec_prefix="BTCSEC:", address_prefix_hex="00", pay_to_script_prefix_hex="05",
